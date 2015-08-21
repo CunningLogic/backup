@@ -1,0 +1,16 @@
+Sat, 06 Jun 2015 18:26:18 s3.py[line:31] INFO scp -rv -i /home/superman/.ssh/superman_rsa superman@10.45.8.229:/data2/backup-nginx/AWS-10.45.8.229-vg012/ /backup/
+Sat, 06 Jun 2015 23:44:52 s3.py[line:71] INFO iso backup is execing ...
+Sat, 06 Jun 2015 23:44:52 s3.py[line:72] INFO starging CollectData
+Sat, 06 Jun 2015 23:44:52 s3.py[line:30] INFO scp -rv -i /home/superman/.ssh/superman_rsa superman@10.45.8.229:/data2/backup-nginx/AWS-10.45.8.229-vg012/ /backup/
+Sat, 06 Jun 2015 23:46:07 s3.py[line:35] ERROR Error file have collected to backup server!
+Sat, 06 Jun 2015 23:46:07 s3.py[line:30] INFO scp -rv -i /home/superman/.ssh/superman_rsa superman@10.45.8.229:/is2_data/AWS-10.203.163.174-vg014/ /backup/
+Sat, 06 Jun 2015 23:47:23 s3.py[line:35] ERROR Error file have collected to backup server!
+Sat, 06 Jun 2015 23:47:23 s3.py[line:74] INFO staring encryp
+Sat, 06 Jun 2015 23:47:23 s3.py[line:81] INFO staring sync to S3
+Sat, 06 Jun 2015 23:47:23 s3.py[line:39] INFO aws s3 sync /backup/ s3://backup-data-dji/
+Sat, 06 Jun 2015 23:47:23 s3.py[line:42] INFO All file are translated to S3 successfully
+Mon, 15 Jun 2015 14:41:12 s3.py[line:71] INFO iso backup is execing ...
+Mon, 15 Jun 2015 14:41:12 s3.py[line:72] INFO starging CollectData
+Mon, 15 Jun 2015 14:41:12 s3.py[line:30] INFO scp -rv -i /home/superman/.ssh/superman_rsa superman@10.45.8.229:/data2/backup-nginx/AWS-10.45.8.229-vg012/ /backup/
+Mon, 15 Jun 2015 14:42:27 s3.py[line:35] ERROR Error file have collected to backup server!
+Mon, 15 Jun 2015 14:42:27 s3.py[line:30] INFO scp -rv -i /home/superman/.ssh/superman_rsa superman@10.45.8.229:/is2_data/AWS-10.203.163.174-vg014/ /backup/
